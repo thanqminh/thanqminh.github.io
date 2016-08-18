@@ -2,7 +2,7 @@
 layout: single
 title:  "Welcome to my blog!"
 date:   2016-08-05 14:59:43 +0700
-categories: general welcome
+categories: general
 ---
 After a long time blogging with WordPress, I moved to Jekyll, as I want to fully control my data and host the website for free.
 
