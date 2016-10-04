@@ -6,15 +6,6 @@ categories: general
 comments: true
 ---
 After a long time blogging with WordPress, I moved to Jekyll, as I want to fully control my data and host the website for free.
+- Thank Google for your generous [Github page][github-page] hosting. 
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('my guest')
-#=> prints 'Hi, my guest' to STDOUT.
-{% endhighlight %}
-
-- Ok, I want to come back to [Google][google-home]
-
-[google-home]: http://google.com/
+[github-page]: https://pages.github.com/
