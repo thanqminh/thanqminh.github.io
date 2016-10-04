@@ -11,7 +11,7 @@ title                    : "Minh's page"
 title_separator          : "-"
 name                     : "Minh Than"
 description              : "Than Quang Minh's website."
-url                      : "http://www.thanqminh.com"
+url                      : "http://thanqminh.com"
 baseurl                  : ""
 repository               : "thanqminh.github.io"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -30,6 +30,17 @@ comments:
     colorscheme          : # "light" (default), "dark"
 atom_feed:
   path                   : # blank (default) uses feed.xml
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+  photo:
+    output: true
+    permalink: /photo/:path/
+  courses:
+    output: true
+    permalink: /courses/:path/
 
 defaults:
   -
