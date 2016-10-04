@@ -3,18 +3,22 @@ main:
     url: /projects/
 
   - title: "Posts"
-    url: /year-archive/
+    url: /
 
-  - title: "Categories"
-    url: /categories/
+  - title: "Photo"
+    url: /photo/
 
   - title: "Tags"
     url: /tags/
 
-  - title: "Pages"
-    url: /page-archive/
+  - title: "Work"
+    url: /work/
 
-  - title: "Collections"
-    url: /collection-archive/
+  - title: "Courses"
+    url: /courses/
+
+  - title: "Personal"
+    url: /personal/
+
   - title: "About"
     url: /about/

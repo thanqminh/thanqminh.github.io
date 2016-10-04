@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Welcome to my blog!"
+title:  "Start my page with Jekyll and Github Page"
 date:   2016-08-05 14:59:43 +0700
 categories: general
 comments: true
