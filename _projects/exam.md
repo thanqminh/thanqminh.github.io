@@ -6,10 +6,10 @@ author_profile: true
 ---
 
 
-{% for item in site.projects.exam %}
-<a href="{{ item.link | prepend: site.baseurl }}">
-   {{ item.title }}
-</a>
+{% for project in site.projects %}
+<h2><a href="{{ project.link | prepend: site.baseurl }}">
+   {{ project.title }}
+</a></h2>
 
-<p class="post-excerpt">{{ item.description | truncate: 160 }}</p>
+<p class="post-excerpt">{{ project.description | truncate: 160 }}</p>
 {% endfor %}
