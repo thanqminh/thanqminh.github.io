@@ -35,18 +35,6 @@ collections:
   posts:
     output: true
     permalink: /posts/:path/
-  projects:
-    output: true
-    permalink: /projects/:path/
-  photo:
-    output: true
-    permalink: /photo/:path/
-  courses:
-    output: true
-    permalink: /courses/:path/
-  personal:
-    output: true
-    permalink: /personal/:path/
 
 defaults:
   -
