@@ -1,12 +1,12 @@
 main:
   - title: "Work"
-    url: /work/
+    url: /work
 
   - title: "Projects"
-    url: /projects/
+    url: /projects
 
   - title: "Posts"
-    url: /posts/
+    url: /posts
 
   - title: "Personal"
-    url: /personal/
+    url: /personal
