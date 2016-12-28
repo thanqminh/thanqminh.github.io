@@ -1,27 +1,12 @@
 main:
+  - title: "Work"
+    url: /work/
+
   - title: "Projects"
     url: /projects/
 
   - title: "Posts"
-    url: /
-
-  - title: "Photo"
-    url: /photo/
-
-  - title: "Work"
-    url: /work/
-
-  - title: "Courses"
-    url: /courses/
+    url: /posts/
 
   - title: "Personal"
     url: /personal/
-
-  - title: "Categories"
-    url: /categories/
-
-  - title: "Tags"
-    url: /tags/
-
-  - title: "About"
-    url: /about/

@@ -11,7 +11,7 @@ title                    : "Minh's page"
 title_separator          : "-"
 name                     : "Minh Than"
 description              : "Than Quang Minh's website."
-url                      : "http://thanqminh.com"
+url                      : ""
 baseurl                  : ""
 repository               : "thanqminh.github.io"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -32,6 +32,9 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 
 collections:
+  posts:
+    output: true
+    permalink: /posts/:path/
   projects:
     output: true
     permalink: /projects/:path/
@@ -41,6 +44,9 @@ collections:
   courses:
     output: true
     permalink: /courses/:path/
+  personal:
+    output: true
+    permalink: /personal/:path/
 
 defaults:
   -
@@ -82,8 +88,8 @@ analytics:
 author:
   name             : "Minh Than"
   avatar           : "bio-photo.jpg"
-  bio              : "A person on the earth."
-  location         : "Vietnam"
+  bio              : "Passionated in IT for better life."
+  location         : "Danang, Vietnam"
   email            :
   uri              :
   bitbucket        :
