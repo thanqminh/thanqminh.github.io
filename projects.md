@@ -5,7 +5,7 @@ author_profile: true
 permalink: /projects
 sidebar: true
 ---
-1. Restaurant booking, order & payment backend
+1.  [Restaurant booking, order & payment backend](https://openwt.com/en/cases/reinventing-hospitality-through-technology){:target="_blank"}
 * Goal: Build a app that allows users to book a table in restaurants, make order, and pay.
 * Technologies used: Ruby on Rails, RABL, carrierwave, rspec, DataTrans, GuestOnline, Ikentoo.
 * Team size: 4.
