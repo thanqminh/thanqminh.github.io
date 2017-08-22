@@ -7,7 +7,7 @@ comments: true
 Tools:  
 [Entry survey][entry_survey]  
 
-Material:
+Material:  
 [Lecture 1 slide][lecture1]  
 [Book Management Exercise][exercise1]
 
