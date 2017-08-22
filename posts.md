@@ -8,7 +8,7 @@ author_profile: true
 
 {% for post in site.posts %}
 
-<h2><a href="{{ post.permalink | prepend: site.baseurl }}">
+<h2><a href="{{ post.url | prepend: site.baseurl }}">
    {{ post.title }}
 </a></h2>
 

@@ -2,7 +2,7 @@
 title: "Minh's CV"
 layout: single
 author_profile: true
-permalink: /work
+permalink: /cv
 ---
 
 1. PERSONAL INFORMATION
@@ -65,4 +65,4 @@ permalink: /work
 - ITPEC FE Exam - highest score in Vietnam April 2014.
 - 2nd price in National Olympiad of Class 12th in Informatics (Algorithmic programming).
 
-[portfolio]: /projects
+[portfolio]: /portfolio

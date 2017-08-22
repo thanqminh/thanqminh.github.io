@@ -6,6 +6,6 @@ categories: general
 comments: true
 ---
 After a long time blogging with WordPress, I moved to Jekyll, as I want to fully control my data and host the website for free.
-- Thank Google for your generous [Github page][github-page] hosting. 
+- Thank Github for your generous [Github page][github-page] hosting.
 
 [github-page]: https://pages.github.com/

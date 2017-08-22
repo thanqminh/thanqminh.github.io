@@ -2,7 +2,7 @@
 title: "Minh's Project Portfolio"
 layout: single
 author_profile: true
-permalink: /projects
+permalink: /portfolio
 sidebar: true
 ---
 1.  [Restaurant booking, order & payment backend](https://openwt.com/en/cases/reinventing-hospitality-through-technology){:target="_blank"}
