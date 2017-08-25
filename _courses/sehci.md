@@ -6,6 +6,8 @@ comments: true
 ---
 Tools:  
 [Entry survey][entry_survey]  
+[Lists][list_sehci]
+[Status][status]
 
 Material:  
 [Lecture 1 slide][lecture1]  
@@ -14,3 +16,5 @@ Material:
 [entry_survey]: https://goo.gl/forms/7eRGhnMsZybaIbbG2
 [exercise1]: https://goo.gl/vTV8zM
 [lecture1]: /courses/sehci/lecture1.pptx
+[list_sehci]: https://goo.gl/4EzqVP
+[status]: https://goo.gl/i6Ei19

@@ -6,6 +6,8 @@ comments: true
 ---
 Tools:  
 [Entry survey][entry_survey]  
+[List][list]
+[Status][status]
 
 Material:  
 [Lecture 1 slide][lecture1]  
@@ -14,3 +16,5 @@ Material:
 [entry_survey]: https://goo.gl/forms/aIggEhFVbc9Mf3Df2
 [exercise1]: https://goo.gl/vTV8zM
 [lecture1]: /courses/oopjava/lecture1.pptx
+[status]: https://goo.gl/xbQurs
+[list]: https://goo.gl/Rk3BNR
