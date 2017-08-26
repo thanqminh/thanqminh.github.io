@@ -6,7 +6,7 @@ comments: true
 ---
 Tools:  
 [Entry survey][entry_survey]  
-[List][list]
+[List][list]  
 [Status][status]
 
 Material:  
