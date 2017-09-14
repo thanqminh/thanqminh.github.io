@@ -17,6 +17,7 @@ Material:
 [Java Beginner Exercise][exercise1] (Please do at least first 74 exercises)  
 [OOP Exercise][exercise2] (Please implements all class from 1.1 to 8.1 )  
 [JUnit Tutorial][junit_tutorial]  
+Assignment 1: write unit tests for all class in OOP Exercises, presentation date will be 14.10.2017
 
 [entry_survey]: https://goo.gl/forms/aIggEhFVbc9Mf3Df2
 [list]: https://goo.gl/Rk3BNR
