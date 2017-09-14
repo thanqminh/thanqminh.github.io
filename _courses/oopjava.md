@@ -14,9 +14,9 @@ Material:
 [Lecture 2][lecture2]  
 [Lecture 3][lecture3]  
 [Lecture 4][lecture4]  
-[Java Beginner Exercise][exercise1] (Please do at least first 74 exercises)
-[OOP Exercise][exercise2] (Please implements all class from 1.1 to 8.1 )
-[JUnit Tutorial][junit_tutorial]
+[Java Beginner Exercise][exercise1] (Please do at least first 74 exercises)  
+[OOP Exercise][exercise2] (Please implements all class from 1.1 to 8.1 )  
+[JUnit Tutorial][junit_tutorial]  
 
 [entry_survey]: https://goo.gl/forms/aIggEhFVbc9Mf3Df2
 [list]: https://goo.gl/Rk3BNR
