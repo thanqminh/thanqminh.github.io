@@ -28,7 +28,7 @@ Evaluation rules:
 [exercise1]: https://goo.gl/vTV8zM
 [exercise2]: https://goo.gl/9NQEHR
 [lecture1]: /courses/oopjava/lecture1.pptx
-[lecture2]: /courses/oopjava/lecture2.pptx
-[lecture3]: /courses/oopjava/lecture3.pptx
-[lecture4]: /courses/oopjava/lecture4.pptx
+[lecture2]: /courses/oopjava/lecture2.ppt
+[lecture3]: /courses/oopjava/lecture3.ppt
+[lecture4]: /courses/oopjava/lecture4.ppt
 [junit_tutorial]: https://goo.gl/ucNux1
