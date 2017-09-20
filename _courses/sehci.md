@@ -13,7 +13,7 @@ Material:
 [Lecture 1][lecture1]  
 [Lecture 2][lecture2]  
 [Lecture 3][lecture3]  
-[Book Management Exercise][exercise1]
+[Book Management Exercise][exercise1]  
 [Assignment 1][assignment1]
 
 [entry_survey]: https://goo.gl/forms/7eRGhnMsZybaIbbG2
