@@ -13,6 +13,7 @@ Material:
 [Lecture 1][lecture1]  
 [Lecture 2][lecture2]  
 [Lecture 3][lecture3]  
+[Lecture 4][lecture4]  
 [Book Management Exercise][exercise1]  
 [Assignment 1][assignment1]
 
@@ -23,4 +24,5 @@ Material:
 [lecture1]: /courses/sehci/lecture1.pptx
 [lecture2]: /courses/sehci/lecture2.pptx
 [lecture3]: /courses/sehci/lecture3.pptx
+[lecture4]: /courses/sehci/lecture4.pptx
 [assignment1]: /courses/sehci/assignment1.pptx
