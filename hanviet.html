@@ -1,262 +1,260 @@
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta name="keywords" content="Vietnamese, Chinese, Han, Viet, Dictionary" />
-<meta name="description" content="Chinese - Vietnamese Dictionary :: Han Viet Tu Dien Trich Dan" />
-<meta name="robots" content="noindex, nofollow" />
-<!-- 2016-01-05 valeur initiale 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="viewport" content="width=device-width, initial-scale=0.5">
--->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="keywords" content="Vietnamese, Chinese, Han, Viet, Dictionary" />
+    <meta name="description" content="Chinese - Vietnamese Dictionary :: Han Viet Tu Dien Trich Dan" />
+    <meta name="robots" content="noindex, nofollow" />
+    <!-- 2016-01-05 valeur initiale
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>hv tra tim</title>
-<link rel="stylesheet" HREF="http://hanviet.org/css/handtk02.css" TYPE="text/css">
-<script type="text/javascript" src="http://hanviet.org/js/overlibmws.js"></script>
-<script language="javascript">
-var cList;
-function init()
-{
-	button(4);
-}
-function trim (str) {
-	var	str = str.replace(/^\s\s*/, ''),
-		ws = /\s/,
-		i = str.length;
-	while (ws.test(str.charAt(--i)));
-	return str.slice(0, i + 1);
-}
-function dosearch(f)
-{
-	search(f.query.value,f.methode.options[f.methode.selectedIndex].value);
-	return false;	
-}
-function search(query,methode)
-{
-	var sQuery = trim(query);
-	if (sQuery.length == 0)
-	{
-		insertAtCaret("\n");
-		return;
-	}
-	var p = sQuery.indexOf('/');
-	if (p >= 0)
-	{
-		var m = sQuery.substring(p+1);
-		if (m.length > 0)
-		{
-			p = parseInt(m);
-			if (cList[p])
-			{
-				insertAtCaret(cList[p]);
-				document.getElementById("query").value = "";
-			}
-		}
-	}
-	else
-	{
-		loadAd();
-		if (window.XMLHttpRequest)      xmlhttp = new XMLHttpRequest();
-		else                            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
-		xmlhttp.onreadystatechange=function()
-		{
-			if (xmlhttp.readyState==4 && xmlhttp.status==200)
-			{
-				var content = "Kh&#244;ng t&#236;m th&#7845;y &#28961;&#25628;&#23563;&#36039;&#26009;&#65281;";
-				var result = xmlhttp.responseText;
-				if ((result) && (result.length > 0)) {
-					var i, j, k, n, uni, s, v;
-					var wordList = result.split("|");
-					n = wordList.length - 1;
-					content = "";
-					var firstList = [];
-					var secondList = [];
-					for (i=0; i < n; i++)
-					{
-						s = wordList[i];
-						j = s.indexOf(':');
-						if (j > 0)
-						{
-							uni = s.substring(0,j);
-							s = s.substring(j+1);
-							if (uni == "javascript")
-							{
-								eval(s);
-								content="---";
-								break;
-							}
-							else
-							{
-								j = s.indexOf(':');
-								v = s.substring(0,j);   //id
-								s = s.substring(j+1);
-								j = s.indexOf('=');
-								k = s.substring(0,j);   //han
-								s = s.substring(j+1);   //viet
-								
-								var obj = {};
-								obj.id = v;
-								obj.han = k;
-								obj.viet = s;
-								
-								if (uni == 'Char')	firstList.push(obj);
-								else				secondList.push(obj);
-							}
-						}
-					}
-					if (content == "") {
-						var ctr = 0, z = "";
-						if (firstList.length > 0) {
-							//firstList.sort(sortViet);
-							for (var ith in firstList) {
-								var o = firstList[ith];
-								ctr++;
-								content += "<b>" + ctr + "</b>. <a href=\"javascript:queryChar("
-										+ o.id + ")\" "
-										+ "onmouseover=\"return o_lib('"
-										+ o.han + "');\" onmouseout=\"nd()\">["
-										+ o.han + "] " + o.viet + "</a> ";
-								z += "cList[" + ctr + "]='" + o.han + "'; ";
-							}
-						// 2016-01-04 old (2 fois a la ligne):	content += "<br><br>";
-							content += "<br>";
-						}
-						if (secondList.length > 0) {
-							//secondList.sort(sortViet);
-							for (var ith in secondList) {
-								var o = secondList[ith];
-								ctr++;
-								content += "<b>" + ctr + "</b>. <a href=\"javascript:queryWord("
-										+ o.id + ")\" "
-										+ "onmouseover=\"return o_lib('"
-										+ o.han + "');\" onmouseout=\"nd()\">["
-										+ o.han + "] " + o.viet + "</a> ";
-								z += "cList[" + ctr + "]='" + o.han + "'; ";
-							}
-						}
-						if (z != "") {
-							z = "cList = new Array(); " + z;
-							eval(z);
-						}
-						else {						
-							content = result;
-						}
-					}
-				}
-				document.getElementById("searchResult").innerHTML = content;
-				//document.getElementById("query").value = "";
-			}
-		}
-		xmlhttp.open("GET","http://hanviet.org/ajax.php?query=" +	encodeURIComponent(sQuery)
-						+ "&methode="+methode, true);
-		xmlhttp.send(null);
-	}
-}
-function sortViet(a,b) {
-	var sortStatus = 0;
- 
-	if (a.viet < b.viet) {
-        sortStatus = -1;
-    } else if (a.viet > b.viet) {
-		sortStatus = 1;
-    }
-    return sortStatus;
-}
-function queryChar(unichar)
-{
-        var f = document.getElementById("charform");
-        f.unichar.value = unichar;
-        f.submit();
-}
-function queryWord(wordid)
-{
-        var f = document.getElementById("wordform");
-        f.wordid.value = wordid;
-        f.submit();
-}
-function insertAtCaret(text) 
-{
-	if (document.getElementById("keyboard").style.display == "none") return;
-        var txtarea = document.getElementById("banphim");
-	var s = txtarea.value;
-        var strPos = 0;
-        var br = ((txtarea.selectionStart || txtarea.selectionStart == '0') ?
+    <title>hv tra tim</title>
+    <link rel="stylesheet" HREF="http://hanviet.org/css/handtk02.css" TYPE="text/css">
+    <script type="text/javascript" src="http://hanviet.org/js/overlibmws.js"></script>
+    <script language="javascript">
+        var cList;
+        function init()
+        {
+            button(4);
+            var url_string = window.location.href;
+            var url = new URL(url_string);
+            var c = url.searchParams.get("query");
+            if (c) {
+                document.getElementById("query").value=c;
+                dosearch(document.searchform);
+            }
+        }
+        function trim (str) {
+            var	str = str.replace(/^\s\s*/, ''),
+                ws = /\s/,
+                i = str.length;
+            while (ws.test(str.charAt(--i)));
+            return str.slice(0, i + 1);
+        }
+        function dosearch(f)
+        {
+            search(f.query.value,f.methode.options[f.methode.selectedIndex].value);
+            return false;
+        }
+        function search(query,methode)
+        {
+            var sQuery = trim(query);
+            if (sQuery.length == 0)
+            {
+                insertAtCaret("\n");
+                return;
+            }
+            var p = sQuery.indexOf('/');
+            if (p >= 0)
+            {
+                var m = sQuery.substring(p+1);
+                if (m.length > 0)
+                {
+                    p = parseInt(m);
+                    if (cList[p])
+                    {
+                        insertAtCaret(cList[p]);
+                        document.getElementById("query").value = "";
+                    }
+                }
+            }
+            else
+            {
+                if (window.XMLHttpRequest)      xmlhttp = new XMLHttpRequest();
+                else                            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+                xmlhttp.onreadystatechange=function()
+                {
+                    if (xmlhttp.readyState==4 && xmlhttp.status==200)
+                    {
+                        var content = "Kh&#244;ng t&#236;m th&#7845;y &#28961;&#25628;&#23563;&#36039;&#26009;&#65281;";
+                        var result = xmlhttp.responseText;
+                        if ((result) && (result.length > 0)) {
+                            var i, j, k, n, uni, s, v;
+                            var wordList = result.split("|");
+                            n = wordList.length - 1;
+                            content = "";
+                            var firstList = [];
+                            var secondList = [];
+                            for (i=0; i < n; i++)
+                            {
+                                s = wordList[i];
+                                j = s.indexOf(':');
+                                if (j > 0)
+                                {
+                                    uni = s.substring(0,j);
+                                    s = s.substring(j+1);
+                                    if (uni == "javascript")
+                                    {
+                                        eval(s);
+                                        content="---";
+                                        break;
+                                    }
+                                    else
+                                    {
+                                        j = s.indexOf(':');
+                                        v = s.substring(0,j);   //id
+                                        s = s.substring(j+1);
+                                        j = s.indexOf('=');
+                                        k = s.substring(0,j);   //han
+                                        s = s.substring(j+1);   //viet
+
+                                        var obj = {};
+                                        obj.id = v;
+                                        obj.han = k;
+                                        obj.viet = s;
+
+                                        if (uni == 'Char')	firstList.push(obj);
+                                        else				secondList.push(obj);
+                                    }
+                                }
+                            }
+                            if (content == "") {
+                                var ctr = 0, z = "";
+                                if (firstList.length > 0) {
+                                    //firstList.sort(sortViet);
+                                    for (var ith in firstList) {
+                                        var o = firstList[ith];
+                                        ctr++;
+                                        content += "<b>" + ctr + "</b>. <a href=\"javascript:queryChar("
+                                            + o.id + ")\" "
+                                            + "onmouseover=\"return o_lib('"
+                                            + o.han + "');\" onmouseout=\"nd()\">["
+                                            + o.han + "] " + o.viet + "</a> ";
+                                        z += "cList[" + ctr + "]='" + o.han + "'; ";
+                                    }
+                                    // 2016-01-04 old (2 fois a la ligne):	content += "<br><br>";
+                                    content += "<br>";
+                                }
+                                if (secondList.length > 0) {
+                                    //secondList.sort(sortViet);
+                                    for (var ith in secondList) {
+                                        var o = secondList[ith];
+                                        ctr++;
+                                        content += "<b>" + ctr + "</b>. <a href=\"javascript:queryWord("
+                                            + o.id + ")\" "
+                                            + "onmouseover=\"return o_lib('"
+                                            + o.han + "');\" onmouseout=\"nd()\">["
+                                            + o.han + "] " + o.viet + "</a> ";
+                                        z += "cList[" + ctr + "]='" + o.han + "'; ";
+                                    }
+                                }
+                                if (z != "") {
+                                    z = "cList = new Array(); " + z;
+                                    eval(z);
+                                }
+                                else {
+                                    content = result;
+                                }
+                            }
+                        }
+                        document.getElementById("searchResult").innerHTML = content;
+                        //document.getElementById("query").value = "";
+                    }
+                }
+                xmlhttp.open("GET","http://hanviet.org/ajax.php?query=" +	encodeURIComponent(sQuery)
+                    + "&methode="+methode, true);
+                xmlhttp.send(null);
+            }
+        }
+        function sortViet(a,b) {
+            var sortStatus = 0;
+
+            if (a.viet < b.viet) {
+                sortStatus = -1;
+            } else if (a.viet > b.viet) {
+                sortStatus = 1;
+            }
+            return sortStatus;
+        }
+        function queryChar(unichar)
+        {
+            var f = document.getElementById("charform");
+            f.unichar.value = unichar;
+            f.submit();
+        }
+        function queryWord(wordid)
+        {
+            var f = document.getElementById("wordform");
+            f.wordid.value = wordid;
+            f.submit();
+        }
+        function insertAtCaret(text)
+        {
+            if (document.getElementById("keyboard").style.display == "none") return;
+            var txtarea = document.getElementById("banphim");
+            var s = txtarea.value;
+            var strPos = 0;
+            var br = ((txtarea.selectionStart || txtarea.selectionStart == '0') ?
                 "ff" : (document.selection ? "ie" : false ) );
-        if (br == "ff") 
-	{
-		strPos = txtarea.selectionStart;
-	}
-	else
-	{
-		txtarea.value = s + text;
-		return;
-	}
-        var scrollPos = txtarea.scrollTop;
-        var front = s.substring(0,strPos);
-        var back = s.substring(strPos,s.length);
-        txtarea.value=front+text+back;
-        strPos = strPos + text.length;
-        if (br == "ie") {
+            if (br == "ff")
+            {
+                strPos = txtarea.selectionStart;
+            }
+            else
+            {
+                txtarea.value = s + text;
+                return;
+            }
+            var scrollPos = txtarea.scrollTop;
+            var front = s.substring(0,strPos);
+            var back = s.substring(strPos,s.length);
+            txtarea.value=front+text+back;
+            strPos = strPos + text.length;
+            if (br == "ie") {
                 //txtarea.focus();
                 var range = document.selection.createRange();
                 range.moveStart ('character', -txtarea.value.length);
                 range.moveStart ('character', strPos);
                 range.moveEnd ('character', 0);
                 range.select();
-        }
-        else if (br == "ff") {
+            }
+            else if (br == "ff") {
                 txtarea.selectionStart = strPos;
                 txtarea.selectionEnd = strPos;
                 //txtarea.focus();
+            }
+            txtarea.scrollTop = scrollPos;
+            //document.getElementById("query").focus();
         }
-        txtarea.scrollTop = scrollPos;
-        //document.getElementById("query").focus();
-}
-function loadAd()
-{
-        if (AdURL && top.pubside1)
-        {
-                top.pubside1.location.href=AdURL;
-        }
-}
-</script>
+
+    </script>
 </head>
 
 <body onload="init()" bgcolor="#FAFAD2">
-<form id="searchform" method="get" onsubmit="return(dosearch(this))">
+<form id="searchform" name="searchform" method="get" onsubmit="return(dosearch(this))">
 
-<input type="text" id="query" placeholder="請輸入欲查詢的字詞" name="query" size=15 >
-<input type="Submit" name="submit" value="Go"
-style="font-size:7pt;color:white;background-color:green;border:2px solid #336600;padding:3px">
-</td>
-<select name="methode" onchange="dosearch(this.form);"  width="100" style="width: 100px">
-<option value="normal" selected>th&#244;ng d&#7909;ng</option>
-<option value="exact">ch&#237;nh x&#225;c &#27491;&#30906;</option>
-<option value="indef">trong &#273;&#7883;nh ngh&#297;a</option>
-</select>
+    <input type="text" id="query" placeholder="請輸入欲查詢的字詞" name="query" size=15 >
+    <input type="Submit" name="submit" value="Go"
+           style="font-size:7pt;color:white;background-color:green;border:2px solid #336600;padding:3px">
+    </td>
+    <select name="methode" onchange="dosearch(this.form);"  width="100" style="width: 100px">
+        <option value="normal" selected>th&#244;ng d&#7909;ng</option>
+        <option value="exact">ch&#237;nh x&#225;c &#27491;&#30906;</option>
+        <option value="indef">trong &#273;&#7883;nh ngh&#297;a</option>
+    </select>
 
-<img src="http://hanviet.org/images/keyboard.gif" border="0"
-onclick="document.getElementById('keyboard').style.display=(document.getElementById('keyboard').style.display== 'block')?'none':'block';">
+    <img src="http://hanviet.org/images/keyboard.gif" border="0"
+         onclick="document.getElementById('keyboard').style.display=(document.getElementById('keyboard').style.display== 'block')?'none':'block';">
 
 </form>
 
 <div id="keyboard" style="display: none;">
-<textarea id="banphim" rows="3" style="background: lightyellow; width: 100%"></textarea><br><font size='-1'>
-G&#245; ch&#7919; H&#225;n: <b>ch&#7919;/#</b>&nbsp; (# s&#7889; th&#7913; t&#7921; c&#7911;a nh&#7919ng ch&#7919; d&#432;&#7899;i &#273;&#226;y).  V&#237; d&#7909;: <b>nam/1</b>.</font>
+    <textarea id="banphim" rows="3" style="background: lightyellow; width: 100%"></textarea><br><font size='-1'>
+    G&#245; ch&#7919; H&#225;n: <b>ch&#7919;/#</b>&nbsp; (# s&#7889; th&#7913; t&#7921; c&#7911;a nh&#7919ng ch&#7919; d&#432;&#7899;i &#273;&#226;y).  V&#237; d&#7909;: <b>nam/1</b>.</font>
 </div>
 <div id="searchResult"></div>
 
 <form id="charform" name="charform" method="get" action="http://hanviet.org/hv_timchu_ndv.php" target="rightside">
-<input type="hidden" name="unichar">
+    <input type="hidden" name="unichar">
 </form>
 
 <form id="wordform" name="wordform" method="get" action="http://hanviet.org/hv_timtukep_ndv.php" target="rightside">
-<input type="hidden" name="wordid">
+    <input type="hidden" name="wordid">
 </form>
 
 <script language="javascript1.2" src="http://hanviet.org/js/CVietButton.js"></script>
+<iframe src="http://hanviet.org/hv_timchu_ndv.php" name="rightside" style="border-left: double;width:100%;height:100%" />
 </body>
 </html>
-
-
-
