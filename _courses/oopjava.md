@@ -16,13 +16,14 @@ Material:
 [Lecture 4][lecture4]  
 [Lecture 5][lecture5]  
 [Lecture 6][lecture6]  
+[Lecture 6][lecture6]  
+[Lecture 7][lecture7]  
+[Lecture 8][lecture8]  
+[Assignment 1][assignment1]  
+[Assignment 2][assignment2]  
 [Java Beginner Exercise][exercise1] (Please do at least first 74 exercises)  
 [OOP Exercise][exercise2] (Please implements all class from 1.1 to 8.1 )  
 [JUnit Tutorial][junit_tutorial]  
-Assignment 1: write unit tests for all class in OOP Exercises, presentation date will be 14.10.2017.  
-Evaluation rules:
-- Each good implemented Test Class: 0.05, 0.05 x 37 = 1.85
-- Test Suite & Presentation will take 0.15 point.
 
 [entry_survey]: https://goo.gl/forms/aIggEhFVbc9Mf3Df2
 [list]: https://goo.gl/Rk3BNR
@@ -35,4 +36,8 @@ Evaluation rules:
 [lecture4]: /courses/oopjava/lecture4.ppt 
 [lecture5]: /courses/oopjava/lecture5.pptx
 [lecture6]: /courses/oopjava/lecture6.pptx
+[lecture7]: /courses/oopjava/lecture7.pptx
+[lecture8]: /courses/oopjava/lecture8.pptx
+[assignment1]: /courses/oopjava/assignment1.txt
+[assignment2]: /courses/oopjava/assignment2.txt
 [junit_tutorial]: https://goo.gl/ucNux1
