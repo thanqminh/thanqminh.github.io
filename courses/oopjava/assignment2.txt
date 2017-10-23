@@ -1,7 +1,7 @@
-download Head First's code from: 
+1. Download Head First's code from:
 https://github.com/bethrobson/Head-First-Design-Patterns
 
-Open the following programs and examine how they are running:
+2. Open the following programs and examine how they are running:
 headfirst.state.gumballstatewinner.GumballMachineTestDrive
 headfirst.templatemethod.barista.BeverageTestDrive
 headfirst.strategy.MiniDuckSimulator
@@ -16,7 +16,9 @@ headfirst.iterator.dinermerger.MenuTestDrive
 headfirst.composite.menuiterator.MenuTestDrive
 headfirst.facade.hometheater.HomeTheaterTestDrive
 
-write a document that includes the following content: for each program above, 
+3. Write a document that includes the following content: for each program above,
 - Describe the pattern in the program: problem, context, and solution. 
 - Describe components of the pattern in the program: what is the particular problem & context, and explain the solution.
 - State the design principles used in the pattern: what it is and why. (of course there are common principles, only describe each principle once)
+
+4. Document Submission Deadline: 11.11.2017
