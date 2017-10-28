@@ -15,9 +15,12 @@ Material:
 [Lecture 3][lecture3]  
 [Lecture 4][lecture4]  
 [Lecture 5][lecture5]  
-[Lecture 6 and assignment 2][lecture6]  
-[Book Management Exercise][exercise1]  
-[Assignment 1][assignment1]
+[Lecture 6][lecture6]  
+[Lecture 7][lecture7]  
+[Lecture 8][lecture8]  
+[Book Management Exercise][exercise1]    
+[Assignment 1][assignment1]  
+[Assignment 2][assignment2]  
 
 [entry_survey]: https://goo.gl/forms/7eRGhnMsZybaIbbG2
 [exercise1]: https://goo.gl/vTV8zM
@@ -29,4 +32,7 @@ Material:
 [lecture4]: /courses/sehci/lecture4.pptx
 [lecture5]: /courses/sehci/lecture5.pptx
 [lecture6]: /courses/sehci/lecture6.pptx
+[lecture7]: /courses/sehci/lecture7.pptx
+[lecture8]: /courses/sehci/lecture8.zip
 [assignment1]: /courses/sehci/assignment1.pptx
+[assignment2]: /courses/sehci/assignment2.txt
