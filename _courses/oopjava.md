@@ -21,17 +21,16 @@ Material:
 [Lecture 8][lecture8]  
 [Lecture 9][lecture9]  
 [Lecture 10][lecture10]  
-[Assignment 1][assignment1]  
-[Assignment 2][assignment2]  
-[Java Beginner Exercise][exercise1] (Please do at least first 74 exercises)  
+[Java Beginner Exercise][exercise1] (Please do at least first 74 exercises) 
 [OOP Exercise][exercise2] (Please implements all class from 1.1 to 8.1 )  
 [JUnit Tutorial][junit_tutorial]  
+[Assignment 1][assignment1]  
+[Assignment 2][assignment2]  
+[Final Project][final]  
 
 [entry_survey]: https://goo.gl/forms/aIggEhFVbc9Mf3Df2
 [list]: https://goo.gl/Rk3BNR
 [status]: https://goo.gl/xbQurs
-[exercise1]: https://goo.gl/vTV8zM
-[exercise2]: https://goo.gl/9NQEHR
 [lecture1]: /courses/oopjava/lecture1.pptx
 [lecture2]: /courses/oopjava/lecture2.ppt
 [lecture3]: /courses/oopjava/lecture3.ppt
@@ -42,6 +41,9 @@ Material:
 [lecture8]: /courses/oopjava/lecture8.pptx
 [lecture9]: /courses/oopjava/lecture9.zip
 [lecture10]: /courses/oopjava/lecture10.ppt
+[exercise1]: https://goo.gl/vTV8zM
+[exercise2]: https://goo.gl/9NQEHR
+[junit_tutorial]: https://goo.gl/ucNux1
 [assignment1]: /courses/oopjava/assignment1.txt
 [assignment2]: /courses/oopjava/assignment2.txt
-[junit_tutorial]: https://goo.gl/ucNux1
+[final]: /courses/oopjava/final.txt

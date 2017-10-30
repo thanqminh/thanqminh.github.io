@@ -1,0 +1,22 @@
+Final Project:
+1. Find the class in HF_DP: headfirst.combining.observer.DuckSimulator
+2. Write a java GUI program (either Applet, AWT, Swing, or JavaFX) that should include the following components:
+  - A list of checkboxes: Red Head Duck, Duck Call, Rubber Duck, Goose Duck
+  - A number input (either textbox, dropdown or textbox with up/down button), range from 0-10.
+  - A "Create" window button. Upon click, a window should display the list of images of Ducks in the selected checkboxes, plus the corresponding number of images of Mallard Duck in the number input.
+  - When user clicks on the image of Duck, the Duck should quack the corresponding sound.
+  - The status of the window should display the total number quacks.
+  - The window should have the button "Quack all" that makes all ducks quack sequentially.
+  - Extra point to deploy the program inside a tablet and host with Tomcat through a serlet.
+
+Submission Material:
+  - Source code.
+  - Instruction to run.
+  - Documentation: describe program structure and architecture.
+
+Evaluation:
+  - Functionality: 70%.
+  - Code convention & architecture: 15%.
+  - Presentaton: 15%.
+
+Submission deadline: 30/11.
