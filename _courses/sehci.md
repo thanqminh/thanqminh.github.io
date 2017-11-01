@@ -21,6 +21,7 @@ Material:
 [Book Management Exercise][exercise1]    
 [Assignment 1][assignment1]  
 [Assignment 2][assignment2]  
+[Final Project][final]  
 
 [entry_survey]: https://goo.gl/forms/7eRGhnMsZybaIbbG2
 [exercise1]: https://goo.gl/vTV8zM
@@ -36,3 +37,4 @@ Material:
 [lecture8]: /courses/sehci/lecture8.zip
 [assignment1]: /courses/sehci/assignment1.pptx
 [assignment2]: /courses/sehci/assignment2.txt
+[final]: //courses/sehci/final.txt
