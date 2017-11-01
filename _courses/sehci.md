@@ -37,4 +37,4 @@ Material:
 [lecture8]: /courses/sehci/lecture8.zip
 [assignment1]: /courses/sehci/assignment1.pptx
 [assignment2]: /courses/sehci/assignment2.txt
-[final]: //courses/sehci/final.txt
+[final]: /courses/sehci/final.txt
