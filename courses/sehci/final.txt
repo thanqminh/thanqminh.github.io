@@ -1,0 +1,16 @@
+Final project description:
+* Work in team of 4 students.
+* Create a Book Management website (responsive):
+  - User can upload books, and add review.
+  - Scenarios defined (with gherkin & cucumber). Need to include user acceptance tests.
+  - Deploy with Capistrano and/or Docker.
+* Assessment:
+  - Final product: 3 points, 
+  - presentation: 0.5 point. 
+  - Daily report: 1.5.
+* Date to submit: 30.11
+* Documents to submit:
+  - Source code: should include tests & deployment scripts.
+  - Scenarios.
+  - List of tickets done by each student in group.
+  - Presentation slides (can be submitted after presentation).
