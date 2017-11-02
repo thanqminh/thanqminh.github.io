@@ -40,7 +40,7 @@ Material:
 [lecture7]: /courses/oopjava/lecture7.pptx
 [lecture8]: /courses/oopjava/lecture8.pptx
 [lecture9]: /courses/oopjava/lecture9.zip
-[lecture10]: /courses/oopjava/lecture10.ppt
+[lecture10]: /courses/oopjava/lecture10.zip
 [exercise1]: https://goo.gl/vTV8zM
 [exercise2]: https://goo.gl/9NQEHR
 [junit_tutorial]: https://goo.gl/ucNux1
