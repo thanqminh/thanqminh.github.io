@@ -21,6 +21,7 @@ Material:
 [Lecture 8][lecture8]  
 [Lecture 9][lecture9]  
 [Lecture 10][lecture10]  
+[Lecture 11][lecture11]  
 [Java Beginner Exercise][exercise1] (Please do at least first 74 exercises) 
 [OOP Exercise][exercise2] (Please implements all class from 1.1 to 8.1 )  
 [JUnit Tutorial][junit_tutorial]  
@@ -41,6 +42,7 @@ Material:
 [lecture8]: /courses/oopjava/lecture8.pptx
 [lecture9]: /courses/oopjava/lecture9.zip
 [lecture10]: /courses/oopjava/lecture10.zip
+[lecture11]: /courses/oopjava/lecture11.zip
 [exercise1]: https://goo.gl/vTV8zM
 [exercise2]: https://goo.gl/9NQEHR
 [junit_tutorial]: https://goo.gl/ucNux1
