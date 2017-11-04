@@ -25,6 +25,7 @@ Material:
 [Java Beginner Exercise][exercise1] (Please do at least first 74 exercises) 
 [OOP Exercise][exercise2] (Please implements all class from 1.1 to 8.1 )  
 [JUnit Tutorial][junit_tutorial]  
+[Swing Tutorial and Examples][swing_tutorial]
 [Assignment 1][assignment1]  
 [Assignment 2][assignment2]  
 [Final Project][final]  
@@ -46,6 +47,7 @@ Material:
 [exercise1]: https://goo.gl/vTV8zM
 [exercise2]: https://goo.gl/9NQEHR
 [junit_tutorial]: https://goo.gl/ucNux1
+[swing_tutorial]: https://docs.oracle.com/javase/tutorial/uiswing/index.html
 [assignment1]: /courses/oopjava/assignment1.txt
 [assignment2]: /courses/oopjava/assignment2.txt
 [final]: /courses/oopjava/final.txt
