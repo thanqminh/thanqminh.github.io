@@ -21,7 +21,7 @@ permalink: /cv
     </script>
 
 2. OVERVIEW
-- 5 years of work experience in Web development using PHP, RoR, Java Spring Framework. 
+- More than 5 years of work experience in Web development using PHP, RoR, Java Spring Framework. 
 - Strong background in Computer Science, computer system, database modeling & information architecture, and fluent in algorithmic & OOP programming and web-related technologies. 
 - Fluent English, excellent communication skills.
 - Master degree in Computer Science, Bachelor of Engineer in Computer Science and Engineering.
@@ -29,7 +29,7 @@ permalink: /cv
 
 3. WORKING EXPERIENCES (See more details at [my Portfolio][portfolio])
     * Web Developer, 7/15 - current (Novahub)
-    Develop websites using Ruby On Rails, Java Spring MVC.
+    Develop websites using Ruby On Rails, Java Spring MVC, C#, VB.net (backend), ASP.net web form, angular 2+, react JS (frontend), ionic (hybrid), Windows Form (C#).
     
     * Business Analysist, 3/14 - 6/15 (FPT)
     Main duties: write Software Requirement Specification for maintaining & new software system.
