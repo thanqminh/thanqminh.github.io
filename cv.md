@@ -49,7 +49,7 @@ permalink: /cv
     Projects & Duties: Develop PHP websites: school solvay-mba.edu.vn, online dating system xedapdoi.vn, company toshiba.com.vn (CakePHP). 
 
 4. EDUCATIONAL BACKGROUND
-    *  [HiØ - Master Degree in CS](http://www.hiof.no/studies/degrees-and-courses/master-in-applied-computer-science?lang=eng){:target="_blank"}, August 2010 - June 2012 
+    *  [HiØ - Master Degree in CS](https://www.hiof.no/english/studies/programmes/itmacs-master-in-applied-computer-science/index.html){:target="_blank"}, August 2010 - June 2012 
         - Master in Computer Science at Ostfold University College, Norway. Majored in Information Architecture. 
         - Key subjects: interactive design, mobile programming, information architecture, media analysis, digital preservation.
 
