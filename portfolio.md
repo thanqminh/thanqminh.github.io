@@ -59,7 +59,7 @@ many other backend REST services.
 * Team size: 1.
 * Role in project: Add news module to an existing eshop (magento-powered).
 * Time: Sep 2015.
-9. [Private Aviation](https://openwt.com/en/cases/private-aviation){:target="_blank"}
+9. [Helicopter booking page](https://openwt.com/en/cases/building-fully-integrated-sales-process-switzerlands-leading-private-jet-broker){:target="_blank"}
 * Goal: Develop a website for booking helicopter trip (fix route & ondemand route).
 * Technologies used: Framework: Ruby On Rails, Devise (for login), Active rest client (for getting data from Saleforces), rspec, capybara & Selenium (for integration & UAT test).
 * Role in project: whole developer, except initial PSD to HTML and Salesforce part.
