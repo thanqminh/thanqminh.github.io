@@ -9,7 +9,7 @@ sidebar: true
 * Goal: Build an app that allows users to manage real estate.
 * Technologies used: Java Spring, Aurelia.
 * Team size: 10.
-* Role in project: frontend developer.
+* Role in project: technical team lead.
 * Time: May 2018.
 2.  [Tools for CI & CD](https://openwt.com/en/cases/winning-digital-age-devops){:target="_blank"}
 * Goal: Build tools for continuous integration and continuous delivery.
