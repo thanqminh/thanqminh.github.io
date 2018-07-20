@@ -5,7 +5,7 @@ author_profile: true
 permalink: /portfolio
 sidebar: true
 ---
-1.  [Digitalize real estate management](https://openwt.com/en/cases/increasing-efficiency-real-estate-through-360-customer-view){:target="_blank"}(#aurelia)
+1.  [Digitalize real estate management](https://openwt.com/en/cases/increasing-efficiency-real-estate-through-360-customer-view){:target="_blank",:id="aurelia"}
 * Goal: Build an app that allows users to manage real estate.
 * Technologies used: Java Spring, Aurelia.
 * Team size: 10.
