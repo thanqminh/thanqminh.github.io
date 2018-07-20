@@ -5,7 +5,7 @@ author_profile: true
 permalink: /portfolio
 sidebar: true
 ---
-1.  [Digitalize real estate management](https://openwt.com/en/cases/increasing-efficiency-real-estate-through-360-customer-view){:target="_blank"}
+1.  [Digitalize real estate management](https://openwt.com/en/cases/increasing-efficiency-real-estate-through-360-customer-view){:target="_blank"}(#aurelia)
 * Goal: Build an app that allows users to manage real estate.
 * Technologies used: Java Spring, Aurelia.
 * Team size: 10.
@@ -68,7 +68,7 @@ many other backend REST services.
 * Technologies used: Framework Ruby On Rails, Devise (for login & access token generation), rspec for API test, carrierwave for file upload.
 * Role in project: whole developer (backend for app, site and admin).
 * Time: May-July 2016.
-12. [Web Form for Real Estate Closing](http://www.consumerfinance.gov/policy-compliance/guidance/implementation-guidance/tila-respa-disclosure-rule/){:target="_blank"}
+12. [Web Form for Real Estate Closing](http://www.consumerfinance.gov/policy-compliance/guidance/implementation-guidance/tila-respa-disclosure-rule/){:target="_blank"}(#cdf)
 * Goal: maintain a real estate & insurance Windows desktop software, build a web form that can be viewed within the software and run independently.
 * Technologies used: C#, ASP.net MVC, Entity Framework, DevExpress, Ms SQL Server.
 * Role in project: Technical Business Analyst, analyze documents and existing code as well as take requirement from customer then transfer them into system specification requirement document for development.
