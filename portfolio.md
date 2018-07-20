@@ -63,7 +63,7 @@ many other backend REST services.
 * Technologies used: Framework: Ruby On Rails, Devise (for login), Active rest client (for getting data from Saleforces), rspec, capybara & Selenium (for integration & UAT test).
 * Role in project: full stack developer, except initial PSD to HTML and Salesforce part.
 * Time: Jun-Aug 2015.
-11. [Apartment & Pet & Pile manager](http://npr4dogs.com/){:target="_blank"}
+11. <span id="pet">Apartment & Pet & Pile manager</span>
 * Goal: Develop a website that provide REST API for mobile app of managing dog poop in rental apartment area, and the web admin for apartment manager.
 * Technologies used: Framework Ruby On Rails, Devise (for login & access token generation), rspec for API test, carrierwave for file upload.
 * Role in project: full stack developer (backend for app, site and admin).
