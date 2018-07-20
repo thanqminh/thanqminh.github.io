@@ -61,12 +61,12 @@ many other backend REST services.
 10. [Helicopter booking page](https://openwt.com/en/cases/building-fully-integrated-sales-process-switzerlands-leading-private-jet-broker){:target="_blank"}
 * Goal: Develop a website for booking helicopter trip (fix route & ondemand route).
 * Technologies used: Framework: Ruby On Rails, Devise (for login), Active rest client (for getting data from Saleforces), rspec, capybara & Selenium (for integration & UAT test).
-* Role in project: whole developer, except initial PSD to HTML and Salesforce part.
+* Role in project: full stack developer, except initial PSD to HTML and Salesforce part.
 * Time: Jun-Aug 2015.
 11. [Apartment & Pet & Pile manager](http://npr4dogs.com/){:target="_blank"}
 * Goal: Develop a website that provide REST API for mobile app of managing dog poop in rental apartment area, and the web admin for apartment manager.
 * Technologies used: Framework Ruby On Rails, Devise (for login & access token generation), rspec for API test, carrierwave for file upload.
-* Role in project: whole developer (backend for app, site and admin).
+* Role in project: full stack developer (backend for app, site and admin).
 * Time: May-July 2016.
 12. <a id="cdf" target="_blank" href="http://www.consumerfinance.gov/policy-compliance/guidance/implementation-guidance/tila-respa-disclosure-rule/">Web Form for Real Estate Closing</a>
 * Goal: maintain a real estate & insurance Windows desktop software, build a web form that can be viewed within the software and run independently.
@@ -76,16 +76,16 @@ many other backend REST services.
 13. <span id="crm">Automated CRM portal (mail & SMS)</span>
 * Goal: Build template & plans to sends email & SMS for an automated CRM system.
 * Technologies used: PHP, CodeIgniter, MySQL, MongoDb (email storage), Redis (User IM & Notifications)
-* Role in project: whole developer.
+* Role in project: full stack developer.
 * Time: Sep 2013 - Feb 2014.
 14. [Norwegian People Archive](http://abdallah.hiof.no/mediarkiv/prosjektbeskrivelse/mediearkiv.pdf){:target="_blank"}
 * Goal: Develop a prototype for Norwegian Personal Archive System.
 * Technologies used: Yii, XML.
-* Role in project: whole developer. Design system architecture, design meta model, identify problems & provide solutions
+* Role in project: full stack developer. Design system architecture, design meta model, identify problems & provide solutions
 * Research Fields: Archive METS format, digital file format, copyright, Semantic Web, Common Metadata for different formats, System architecture, archiving activities.
 * Time: Jun 2012 - May 2013.
 15. First experience websites
-* School website: [solvay-mba.edu.vn](http://solvay-mba.edu.vn){:target="_blank"} (whole developer for front end and content admin except PSD to HTML, using company’s MVC framework)
-* Company website: [toshiba.com.vn](http://toshiba.com.vn){:target="_blank"} (whole developer for front end and content admin except PSD to HTML, using CakePHP).
+* School website: [solvay-mba.edu.vn](http://solvay-mba.edu.vn){:target="_blank"} (full stack developer for front end and content admin except PSD to HTML, using company’s MVC framework)
+* Company website: [toshiba.com.vn](http://toshiba.com.vn){:target="_blank"} (full stack developer for front end and content admin except PSD to HTML, using CakePHP).
 * Online dating system xedapdoi.vn (page owner & content changed) that people can be friends and send messages & gifts to each others (1 of 3 developers for both front end and content admin, using company’s MVC framework)
 * Time: Jun 2009 - Jul 2010.
