@@ -10,7 +10,7 @@ sidebar: true
 * Technologies used: Java Spring, Aurelia.
 * Team size: 10.
 * Role in project: technical team lead.
-* Time: May 2018.
+* Time: from May 2018.
 2.  [Tools for CI & CD](https://openwt.com/en/cases/winning-digital-age-devops){:target="_blank"}
 * Goal: Build tools for continuous integration and continuous delivery.
 * Technologies used: Nuget, SonarQube, Jenkins, Docker.
