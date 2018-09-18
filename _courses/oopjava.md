@@ -7,7 +7,7 @@ comments: true
 
 Material:  
 [Lecture 1][lecture1]  
-[Practice 1][practice1]
+[Practice 1][practice1]  
 [Lecture 2][lecture2]  
 [Practice 2][practice2]        
 
