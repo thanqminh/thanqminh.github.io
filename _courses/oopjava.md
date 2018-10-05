@@ -11,7 +11,8 @@ Material:
 [Lecture 2][lecture2]  
 [Practice 2][practice2]
 [Lecture 3][lecture3]
-[Practice 3][practice3]  
+[Practice 3][practice3]
+[Lecture 4][lecture4]  
 
 [lecture1]: /courses/oopjava/lecture1.pptx
 [practice1]: /courses/oopjava/practice1.pptx
@@ -19,3 +20,4 @@ Material:
 [practice2]: /courses/oopjava/practice2.pptx
 [lecture3]: /courses/oopjava/lecture3.txt
 [practice3]: /courses/oopjava/practice3.zip
+[lecture4]: /courses/oopjava/lecture4.ppt
