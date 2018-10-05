@@ -1,0 +1,6 @@
+https://www.javatpoint.com/java-oops-concepts
+https://www.javatpoint.com/java-naming-conventions
+https://www.javatpoint.com/object-and-class-in-java
+https://www.javatpoint.com/java-constructor
+https://www.javatpoint.com/static-keyword-in-java
+https://www.javatpoint.com/this-keyword
