@@ -9,9 +9,9 @@ Material:
 [Lecture 1][lecture1]  
 [Practice 1][practice1]  
 [Lecture 2][lecture2]  
-[Practice 2][practice2]
-[Lecture 3][lecture3]
-[Practice 3][practice3]
+[Practice 2][practice2]  
+[Lecture 3][lecture3]  
+[Practice 3][practice3]  
 [Lecture 4][lecture4]  
 
 [lecture1]: /courses/oopjava/lecture1.pptx
