@@ -23,5 +23,5 @@ Material:
 [lecture3]: /courses/oopjava/lecture3.txt
 [practice3]: /courses/oopjava/practice3.zip
 [lecture4]: /courses/oopjava/lecture4.ppt
-[lecture3]: /courses/oopjava/practice4.zip  
+[practice4]: /courses/oopjava/practice4.zip  
 [assignment2]: https://goo.gl/3ipxna
