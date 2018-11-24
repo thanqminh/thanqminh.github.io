@@ -14,7 +14,7 @@ Material:
 [Practice 3][practice3]  
 [Lecture 4][lecture4]  
 [Practice 4][practice4]    
-[Assignment2][assignment2] 
+[Assignment2][assignment2]  
 [GUI][gui]
 
 [lecture1]: /courses/oopjava/lecture1.pptx
