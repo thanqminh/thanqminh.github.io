@@ -1,9 +1,9 @@
 ---
 layout: single
-title:  "Web lectures"
-date:   2019-09-06 08:23:43 +0700
+title:  "Web"
+date:   2018-12-09 00:59:43 +0700
 comments: true
 ---
 
-[Web data flow][dataflow]  
-[dataflow]: /courses/web/web-data-flow.pptx
+[Web Data Flow][webdataflow]  
+[webdataflow]: /courses/web/web-data-flow.pptx
