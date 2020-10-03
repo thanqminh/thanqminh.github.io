@@ -7,5 +7,7 @@ comments: true
 
 Material:  
 [Lecture 1][lecture1]  
+[Lecture 2][lecture2]  
 
 [lecture1]: /courses/oopjava/lecture1.pptx
+[lecture2]: /courses/oopjava/lecture2.pptx
