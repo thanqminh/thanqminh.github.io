@@ -1,0 +1,15 @@
+Assignment 1:
+Read the business requirement for the College Financial Management System here: http://thanqminh.com/courses/oopjava/exercise.docx
+
+In this assignment, you need to implement the following classes:
+- FulltimeStaff and Lecturer & Officer
+- SeasonalStaff
+- Student
+- Provider
+- Account
+and the corresponding unit test classes
+
+Submission:
+The classes should be stored in packages, also you need to include the test suite for running all unit test classes, code coverage should be 100%.
+
+Your code should follow Google's coding convention for Java: https://google.github.io/styleguide/javaguide.html
