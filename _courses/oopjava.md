@@ -12,7 +12,8 @@ Material:
 [Lecture 4][lecture4]  
 [Lecture 5][lecture5]  
 [Lecture 6][lecture6]  
-[Assignment 1][assignment1]
+[Assignment 1][assignment1]  
+[Lecture 7][lecture7]  
 
 [lecture1]: /courses/oopjava/lecture1.pptx
 [lecture2]: /courses/oopjava/lecture2.pptx
@@ -21,3 +22,4 @@ Material:
 [lecture5]: /courses/oopjava/lecture5.pptx
 [lecture6]: /courses/oopjava/lecture6.ppt
 [assignment1]: /courses/oopjava/assignment1.txt
+[lecture7]: /courses/oopjava/lecture7.pptx
