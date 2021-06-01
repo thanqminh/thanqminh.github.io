@@ -6,7 +6,7 @@ permalink: /cv
 ---
 
 1. PERSONAL INFORMATION
-    * Name 	: 	(Mr.) Thân Quang Minh .  Birthday: 	22/06/1987 
+    * Name 	: 	(Mr.) Thân Quang Minh. 
     * Address: 	32 Le Hong Phong, Quang Tri Town, Quang Tri Province, Vietnam.
     * Mobile 	: 	(+84) 985 426 317.        
     * Skype: [thanqminh](skype:thanqminh?call)
